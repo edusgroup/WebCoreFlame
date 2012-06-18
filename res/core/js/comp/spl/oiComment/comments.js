@@ -12,7 +12,7 @@ var artComp = (function(){
 
     function saveCommnents(){
         var data = $('#'+respondBox + ' form:first').serialize();
-        var url = '/func/comp/spl/artCom/';
+        var url = '/func/comp/spl/oiComment/';
         url += '?blockItemId=' + options.blockItemId;
         url += '&acticleId=' + options.acticleId;
         $.ajax({
